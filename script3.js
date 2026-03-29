@@ -27,9 +27,9 @@ for (key in person){
 let string = "hello world";
 let count = 0;
 for ( let char of string){
-    if( char !== " "){
-        count++
-    } 
+
+        count++;
+    
 }
   console.log(count);
 
@@ -41,7 +41,7 @@ for ( let i = 1; i<=5; i++){
 }
 
 // Exercise 6 - Find maximum
-// let val = [5, 2, 8, 1, 9, 3];
+
 
 // Exercise 7 - Filter even numbers
 let ar = [1, 2, 3, 4, 5, 6];
@@ -52,7 +52,4 @@ for (let val of ar){
 }
 
 // Exercise 8 - Count property values
-let stat = [ {status:"active"}, {status:"active" }, {status :"inactive"}];
-for (key in stat){
-    for (count of stat)
-}
+
